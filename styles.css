@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    display: inline-block;
+}
+
+hr {
+    width: 100%;
+    margin-top: 4em;
+    border-width: 0.1em;
+    border-bottom: none;
+    /* margin: auto; */
+}
+
+#header {
+    width: 100%;
+    height: 900px;
+    /* background-color: #d6849f; */
+    box-shadow: inset 0 0 0 1000px rgba(211, 110, 243, 0.8);
+    background-image: url("Background-img.webp");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+
+.navBar {
+    color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    padding: 0.1em 3em;
+    margin: 1.5em auto 1.5em;
+    border-radius: 2em;
+}
+
+.navBar h1 {
+    color: #d6849f;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.navLinks {
+    padding: 1em;
+}
+
+.navLinks ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navLinks ul li {
+    margin-left: 1.5em;
+    font-weight: 600;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #d6849f;
+}
+
+.navLinks a:hover {
+    color: red;
+}
+
+.headerCon {
+    margin-top: 5em;
+}
+
+.headerCon h1 {
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.headerCon p {
+    color: white;
+}
+
+button {
+    margin-top: 2rem;
+    color: white;
+    background-color: #ff2370;
+    border: 0;
+    font-size: 1em;
+    border-radius: 1.8em;
+    padding: 0.8em 2.3em;
+    transition: transform 0.25s ease-in;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.cardsBox {
+    background-color: white;
+    align-self: center;
+    width: 100%;
+    margin-top: 16em;
+    height: 40em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fa-2xl::before {
+    color: #d6849f;
+    font-size: 4rem;
+    /* padding: 3em 0; */
+}
+
+.cards {
+    position: relative;
+    bottom: 8em;
+    width: 202px;
+    background-color: white;
+    margin-left: 2em;
+    padding: 4em 3em 2em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cards h3 {
+    margin: 1.5em 0 0.5em;
+    color: #ff2370;
+    font-size: 1.5em;
+}
+
+#About {
+    text-align: center;
+}
+
+.aboutUs {
+    color: #ff2370;
+    font-size: 2.5rem;
+}
+
+#About p {
+    margin-top: 1em;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 600;
+}
+
+.aboutUSCon {
+    display: flex;
+    align-items: center;
+}
+
+.starturJour {
+    text-align: left;
+    padding: 2em;
+    margin-top: 2em;
+    width: 50%;
+    color: #ff2370;
+    font-size: 1.4em;
+}
+
+.starturJour button {
+    background-color: #9553a0;
+}
+
+.aboutUsImg {
+    margin: auto;
+    width: 40%;
+}
+
+#Teachers {
+    text-align: center;
+    padding: 4em 2em 3em;
+    background-color: #fbf9f9;
+    min-height: 20px;
+}
+
+.ourTeachers {
+    color: #ff2370;
+    font-size: 2em;
+}
+
+#Teachers p {
+    color: rgba(128, 128, 128, 0.7);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.teacherCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teachcard {
+    border: 2px solid red;
+    padding: 1.7em;
+    margin-top: 3em;
+}
+
+.socialLink ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 4em;
+}
+
+.socialLink a {
+    color: #ff2370;
+}
+
+.socialLink a:hover {
+    color: #9553a0;
+}
+
+.teachcard img {
+    width: 17em;
+    height: 20em;
+    opacity: 0.5;
+}
+
+.teachcard img:hover {
+    opacity: 1;
+}
+
+.teachHeading {
+    font-size: 1.5em;
+    color: #ff2370;
+}
+
+.imgTeacher {
+    background-color: black;
+}
+
+#Course {
+    background-color: white;
+}
+
+.courseHeader {
+    text-align: center;
+
+}
+
+.courseHeader h1 {
+    color: #ff2370;
+    margin-top: 5em;
+}
+
+.courseHeader p {
+    color: grey;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.courseDisplay {
+    width: 60%;
+    margin: 5em auto;
+    padding: 3em;
+}
+
+.courseCard {
+    width: 200px;
+    display: inline-block;
+    margin: 1em auto 2em 3em;
+    text-align: center;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 4px 4px 2px #9553a0;
+}
+
+.courseCard h1 {
+    color: #9553a0;
+    font-size: 2em;
+}
+
+.courseCard p {
+    color: grey;
+    font-size: 1.3em;
+}
+
+.html5 {
+    font-size: 4em;
+    /* position: relative;
+    bottom: 0.5em; */
+    color: #ff2370;
+}
+
+#Review {
+    padding: 8em 0;
+    text-align: center;
+    background-color: #fbf9f9;
+}
+
+.reviewHeader h1 {
+    color: #ff2370;
+    font-size: 2em;
+}
+
+.reviewHeader p {
+    color: grey;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.reviewcardList {
+    padding: 0 3em 3em 3em;
+}
+
+.reviewCard {
+    padding: 1em;
+    margin-left: 2em;
+    margin-top: 3em;
+    background-color: white;
+    border-radius: 0.5em;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 2px 2px 4px grey;
+}
+
+#Contact {
+    padding: 2em;
+    background-color: #2f2f2d;
+    text-align: center;
+}
+
+.contactHeader {
+    padding: 7em 1em 2em;
+}
+
+.contactHeader h1 {
+    color: #ff2370;
+    font-size: 2em;
+}
+
+.contactHeader p {
+    color: grey;
+    font-size: 1.3em;
+}
+
+.contactCon {
+    align-items: center;
+    padding: 3em;
+}
+
+.contactImg {
+    margin: auto;
+}
+
+.contactImg img {
+    min-width: 400px;
+    max-width: 35%;
+    float: left;
+}
+
+.contactForm {
+    margin-top: 3em;
+    display: inline-block;
+    /* margin-left: 8em; */
+}
+
+.contactForm1 {
+    display: inline-block;
+    margin: auto;
+    padding: 2em;
+}
+
+.contactForm .number,
+.contactForm .text {
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 0.8em auto;
+    border-radius: 2em;
+    padding-top: 0.7em;
+    padding-left: 1em;
+    padding-bottom: 0.7em;
+    width: 100%;
+}
+
+#footer {
+    padding: 5em;
+    text-align: center;
+}
+
+.footerCon a {
+    margin-left: 0.15em;
+    text-decoration: none;
+    font-size: 2.8em;
+}
+
+.footerCon a:hover {
+    color: #ff2370;
+}
+
+#footer p {
+    margin-top: 1em;
+    color: grey;
+    font-size: 1.3em;
+}
